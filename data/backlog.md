@@ -15,6 +15,7 @@
   - invent similar functionality for clerk and teacher
 - Viewing subject statistics #10
 - Adding domain model
+- Adding testing
 
 #### MENTIONED
 - Approving modifications of subjects #6
