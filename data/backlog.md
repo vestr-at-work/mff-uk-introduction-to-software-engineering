@@ -14,6 +14,7 @@
 - Filtering list of subjects #2
   - invent similar functionality for clerk and teacher
 - Viewing subject statistics #10
+- Adding domain model
 
 #### MENTIONED
 - Approving modifications of subjects #6
