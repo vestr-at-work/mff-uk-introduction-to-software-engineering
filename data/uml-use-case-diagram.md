@@ -1,3 +1,4 @@
+```
 @startuml
 left to right direction
 actor Teacher as t
@@ -29,6 +30,7 @@ c -up- UC8
 c -up- UC9
 
 t -- UC1
+t -- UC2
 t -- UC4
 t -- UC5
 t -- UC8
@@ -36,9 +38,11 @@ t -- UC9
 
 UC4 .> UC2 : << extends >>
 UC4 .> UC1 : << extends >>
+UC2 .> UC7 : << includes >>
 @enduml
+```
+link to PlantUML demo server: www.plantuml.com/plantuml/png/TP3RRk8m48Rl_HGZxbcHS22i46A5Tb-0RUzTUqBSEZQo9psewhlNRc8vfN3tPVvlPZpPU-AEkbOpZJK1MN3gr118vL2GiePnGTR1V-IYGGVS0msbWqRt50jYA1ofasWebZnZiP-RaqOuTW-FuSF3EmFeF0hk4IP_fIBmVGGj4fUS-2GstnsAM-AGb-FyNk5Boi4J9-L92J-eyx5wH2F1M5Ar4ZnUbwp5sFeZ9JYiqQ4H22qdT8hhf2v_x6x2GklUmDOWcd0o-e0NBrvzMt0-E_kCq5gPNpBgIQlMDy-KI5pfv5LZxv_IyS7c15fvkZ9rStchoOFJ_v-n3-PXEWqyJr0bs30cODgT8vSP5nbN6TSPYrdcAcCOH_tW8a6PO95WcQ1A4Df23hzsqOVViDq2lX8QwM6tor5n9IhxQDr7oWZTIVpAza7gMlq9
 
-link to PlantUML demo server: www.plantuml.com/plantuml/png/TP3BJiCm44Nt_efHzqMqz96YgYggu0SAx8qzQGoE7NacF8JuTs8rbbDATqTpxznvR8bbuBQsmcB9m1w2ELGCsWHKRBmJKh4Fy8XILHX04d1VsbaCRx6W-iAUMusEOuc4YFtI7Ip2ldrvHSK4tmAW9LII44RtsZ3GKO8QMMh9SXIRdtQJIyPUdmxrPuCVIGTYoOROAEgjDqFh7fq6vzcKHibuNNBDXguxhI5WYG6TGgWbOp3I9klyR7PbY7tu0b-2ghgJaIAURhmu6T0qmRztqLxdJGOzQTJoufaQMHgRVCNGzs1iNDWTm1hYVr9NVszrEJZz_rhy28BnE3umGP5W9OI2STj4dcQSPLnaN2QCgPcBZ5qS7uCd2MO9vWcA19sxq-5g4uV3BQpNW9-CJXDiDbcQd4dR3jhQ_W80
+![image](https://github.com/vestr-at-work/mff-uk-introduction-to-software-engineering/assets/32305565/720e3fb5-081a-4082-a788-c9b0088de1d3)
 
-![image](https://github.com/vestr-at-work/mff-uk-introduction-to-software-engineering/assets/32305565/e9bd8e22-6d7b-4666-9da1-54cf15c63675)
 
