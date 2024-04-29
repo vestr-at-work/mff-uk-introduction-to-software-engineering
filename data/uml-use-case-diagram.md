@@ -1,3 +1,4 @@
+```
 @startuml
 left to right direction
 actor Teacher as t
@@ -41,3 +42,8 @@ UC4 .> UC2 : << extends >>
 UC4 .> UC1 : << extends >>
 UC2 .> UC7 : << includes >>
 @enduml
+```
+
+link to PlantUML demo server: www.plantuml.com/plantuml/png/TP3DRkiW48NtFCKe-rpTsFbnhg8eLr7x0ccxfp2EQJ54CEwFghvxeJR2JPFTfpddp67OUUAEkbOpZJK1MN3gs118vL2GiePnGTR17NBHe0FkWORHNgDxZWCn30xKIJGKHvwncEVcg14EtUCJ2lBmmG0wZu9xXCcDL0I-bw15uf8JdyJm_NvspJZenLX_KFYQTF34INbImW_MScmze95WBAbQ2HwlIwxvsFLVId1OeqCZ45fEw1JNoRhurTs4GklUmTOWcd0o-e1dBrx-A3YTd7q9gwtCBnbbKjNgwfaIYIkTVDNOTwjqVB0vWbQUBcnTdzzgykBq_t_P9_CmdGOk4rG9rem9c7Qdo4N6CkCyupBZAc4io5nb39kfxvWbA1AK2UO95Wcg124VTFYpZK7u1viDu1kXaHwssopDBaX5BwrwIHcXEudVsYwOkbP_0G00
+
+![image](https://github.com/vestr-at-work/mff-uk-introduction-to-software-engineering/blob/main/data/uml-usecase-diagram.png)
