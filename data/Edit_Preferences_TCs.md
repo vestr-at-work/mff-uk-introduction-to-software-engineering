@@ -1,10 +1,14 @@
 ### Test Conditions
 
 - T_CONDITION_01: All - Teacher logins and has given access rights
-- T_CONDITION_02: Preferences - Add/Edit/Delete preferences
-- T_CONDITION_03: Preferences - Save preferences
-- T_CONDITION_04: Preferences - View preferences
-- T_CONDITION_05: Preferences - After Deadline action
+- T_CONDITION_02: Preferences - Add preferences
+- T_CONDITION_03: Preferences - Edit preferences
+- T_CONDITION_04: Preferences - Delete preferences
+- T_CONDITION_05: Preferences - Save preferences
+- T_CONDITION_06: Preferences - View preferences
+- T_CONDITION_07: Preferences - After deadline actions
+
+[Use Case 9 - source](https://gitlab.mff.cuni.cz/berkal/nswi041-sch/-/blob/37ac2959e6f4a70dd23a790f7687d37566dd2e50/USE_CASES.md#use-case-9-edit-preferences)
 
 ### Test Case 1 (Use Case 9)
 
@@ -39,7 +43,7 @@
     </tr>
     <tr>
         <th>Covered Test Conditions</th>
-        <td colspan="2">T_CONDITION_02, T_CONDITION_03, T_CONDITION_04</td>
+        <td colspan="2">T_CONDITION_03, T_CONDITION_05, T_CONDITION_06</td>
     </tr>
     <tr>
         <th>Test steps</th>
@@ -111,7 +115,7 @@
     </trBBBB>
     <tr>
         <th>Covered Test Conditions</th>
-        <td colspan="2">T_CONDITION_04</td>
+        <td colspan="2">T_CONDITION_06</td>
     </tr>
     <tr>
         <th>Test steps</th>
@@ -134,7 +138,7 @@
         <td>Editing form with inserted data appears</td>
     </tr>
     <tr>
-    BBBB    <td>4.</td>
+        <td>4.</td>
         <td>Teacher changes beginning of the preference by one hour in the future</td>
         <td>The time of specified preference is rewritten</td>
     </tr>
@@ -183,7 +187,7 @@
     </tr>
     <tr>
         <th>Covered Test Conditions</th>
-        <td colspan="2">T_CONDITION_04, T_CONDITION_05</td>
+        <td colspan="2">T_CONDITION_06, T_CONDITION_07</td>
     </tr>
     <tr>
         <th>Test steps</th>
